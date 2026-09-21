@@ -12,7 +12,7 @@ More on plug method in [Plug method](Plug_method.md).
 
 ## Documentation
 
-See documentation at (https://pajas22.github.io/DHNetworkSimulator)
+See documentation at https://svoboda-pavel.github.io/DHNetworkSimulator/
 
 ## Features
 
