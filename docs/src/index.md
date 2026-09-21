@@ -1,6 +1,6 @@
 # Distributed Heating Network Simulator
 
-This is the documentation for **DHNetworkSimulator** ([source code on github](https://github.com/PajaS22/DHNetworkSimulator)).
+This is the documentation for **DHNetworkSimulator** ([source code on github](https://github.com/svoboda-pavel/DHNetworkSimulator)).
 
 DHNetworkSimulator is a Julia package for building, visualizing, and simulating **district heating networks**. A network is modeled as a **directed, acyclic tree**: a single producer sits at the root, water flows through junctions, and consumers (loads) are typically leaves.
 
@@ -18,12 +18,12 @@ More details on the thermal model are in [Plug method](@ref plug_method).
 ## Getting started
 To install the package, open the Julia REPL and type
 ```julia
-julia> using Pkg; Pkg.add(url="https://github.com/PajaS22/DHNetworkSimulator")
+julia> using Pkg; Pkg.add(url="https://github.com/svoboda-pavel/DHNetworkSimulator")
 ```
 
 ### Examples
 
-The easiest way to get a feel for the API is to run one of the example scripts. You can find them after cloning the [repo](https://github.com/PajaS22/DHNetworkSimulator) in subfolder scripts.
+The easiest way to get a feel for the API is to run one of the example scripts. You can find them after cloning the [repo](https://github.com/svoboda-pavel/DHNetworkSimulator) in subfolder scripts.
 - `scripts/basic_network.jl`
 - `scripts/bigger_network.jl`
 
