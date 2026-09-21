@@ -2,7 +2,7 @@ using Documenter, DHNetworkSimulator
 
 makedocs(
     sitename="DHNetworkSimulator",
-    format = Documenter.HTML(repolink = "https://github.com/PajaS22/DHNetworkSimulator"),
+    format = Documenter.HTML(repolink = "https://github.com/svoboda-pavel/DHNetworkSimulator"),
     modules = [DHNetworkSimulator],
         workdir = joinpath(@__DIR__, ".."),
         pages = [
@@ -13,8 +13,8 @@ makedocs(
         "API" => "API.md",
         "Search" => "search.md",
         ],
-        repo=Documenter.Remotes.GitHub("PajaS22", "DHNetworkSimulator"))
+        repo=Documenter.Remotes.GitHub("svoboda-pavel", "DHNetworkSimulator"))
 
 deploydocs(
-    repo = "github.com/PajaS22/DHNetworkSimulator.git",
+    repo = "github.com/svoboda-pavel/DHNetworkSimulator.git",
 )
